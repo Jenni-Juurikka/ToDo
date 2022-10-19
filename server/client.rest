@@ -1,1 +1,7 @@
 GET http://localhost:3001 HTTP/1.1
+
+### New route with POST
+POST http://localhost:3001/new HTTP/1.1
+
+### New route with DELETE
+DELETE http://localhost:3001/delete/:id HTTP/1.1
